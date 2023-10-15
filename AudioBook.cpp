@@ -15,5 +15,6 @@ void AudioBook::setVoiceActor(string voiceActor)
 
 void AudioBook::printDescription()
 {
-    cout << "Desc: Book title : " << this->title << " , Written By : " << this->authorName << ", Voiced by : " << this->voiceActor<< endl;
+    cout << "Desc: Book title : " << this->title << "\nWritten By : " << this->authorName << "\nVoiced by : " << this->voiceActor<< endl;
+    cout << "--------------------------------------------------" << endl;
 }
