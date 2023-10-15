@@ -11,4 +11,6 @@ public:
     string getVoiceActor();
     void setVoiceActor(string voiceActor);
     AudioBook(string title, string authorName, string voiceActor);
+
+    void printDescription();
 };

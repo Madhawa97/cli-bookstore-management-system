@@ -28,5 +28,5 @@ void Book::setAuthorName(string authorName)
 
 void Book::printDescription()
 {
-    cout << this->title << this->authorName << endl;
+    cout << "Desc: Book title : " << this->title << " , Written By : " << this->authorName << endl;
 }

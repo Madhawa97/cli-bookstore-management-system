@@ -3,7 +3,7 @@
 
 class Book
 {
-private:
+protected:
     string title;
     string authorName;
 
@@ -15,5 +15,5 @@ public:
     string getAuthorName();
     void setAuthorName(string authorName);
 
-    void printDescription();
+    virtual void printDescription();
 };
